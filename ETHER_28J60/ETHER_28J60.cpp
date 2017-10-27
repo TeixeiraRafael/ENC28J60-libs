@@ -137,7 +137,7 @@ char* ETHER_28J60::serviceRequest()
 }
 
 
-void ETHER_28J60::print(char* text)
+void ETHER_28J60::print(const char* text)
 {
 	int j = 0;
   	while (text[j]) 
