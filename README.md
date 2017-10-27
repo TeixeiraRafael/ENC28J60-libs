@@ -1,7 +1,7 @@
 # ENC28J60-libs
 *The ENC28J60 arduino library refactored*
 
-Here are the main changes i've made on this library were:
+The main changes i've made on this library were:
  - Changing "char \*" parameters to "const char\*" parameters on ETHER28J60.h;
  - Fixed "EtherShield.h not found" error on case-sensitive systems by properly renaming the include line on etherShield.h;
  - Changed all prog_char variables to simple char ones (fixes some compiling errors);
